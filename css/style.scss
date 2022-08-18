@@ -11,12 +11,6 @@ $limeGreen: #57ffdc;
 $purple: #232142;
 $white: #fff;
 
-header {
-    width: 100vw;
-    height: 100vh;
-    background-image: url('/img/header.jpg');
-}
-
 nav {
     display: flex;
     align-items: center;
@@ -91,5 +85,38 @@ nav {
     }
     ul {
         flex-direction: column;
+    }
+}
+
+header {
+    width: 100vw;
+    height: 500px;
+    background-image: url('/img/header.jpg');
+}
+
+#values {
+    width: 100%;
+    min-height: 300px;
+    background-color: $purple;
+    display: flex;
+    text-align: center;
+
+    .category {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+
+        h2 {
+            margin: 20px 0 20px 0;
+            color: $limeGreen;
+            font-size: 40px;
+        }
+
+        p {
+            color: $white;
+            font-size: 20px;
+        }
     }
 }
