@@ -120,3 +120,31 @@ header {
         }
     }
 }
+
+.cockpit {
+    background-color: $limeGreen;
+    min-height: 400px;
+    overflow: auto;
+    .intro {
+        text-align: center;
+        h2 {
+            margin: 20px 0 20px 0;
+            color: $purple;
+            font-size: 40px;
+        }
+        p {
+            color: #888;
+            font-size: 20px;
+            margin: 20px;
+        }
+    }
+    .img_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        img {
+            width: 30%;
+        }
+    }
+}

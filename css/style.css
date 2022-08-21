@@ -105,4 +105,32 @@ header {
 #values .category p {
   color: #fff;
   font-size: 20px;
+}
+
+.cockpit {
+  background-color: #57ffdc;
+  min-height: 400px;
+  overflow: auto;
+}
+.cockpit .intro {
+  text-align: center;
+}
+.cockpit .intro h2 {
+  margin: 20px 0 20px 0;
+  color: #232142;
+  font-size: 40px;
+}
+.cockpit .intro p {
+  color: #888;
+  font-size: 20px;
+  margin: 20px;
+}
+.cockpit .img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.cockpit .img_container img {
+  width: 30%;
 }/*# sourceMappingURL=style.css.map */
