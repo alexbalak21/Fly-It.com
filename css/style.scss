@@ -11,6 +11,16 @@ $limeGreen: #57ffdc;
 $purple: #232142;
 $white: #fff;
 
+$h2: 40px;
+$p: 20px;
+h2 {
+    font-size: $h2;
+}
+
+p {
+    font-size: $p;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -111,12 +121,10 @@ header {
         h2 {
             margin: 20px 0 20px 0;
             color: $limeGreen;
-            font-size: 40px;
         }
 
         p {
             color: $white;
-            font-size: 20px;
         }
     }
 }
@@ -130,7 +138,6 @@ header {
         h2 {
             margin: 20px 0 20px 0;
             color: $purple;
-            font-size: 40px;
         }
         p {
             color: #888;
@@ -145,6 +152,45 @@ header {
         width: 100%;
         img {
             width: 30%;
+        }
+    }
+}
+
+.hangar {
+    background-color: $purple;
+    overflow: auto;
+    h2 {
+        margin: 20px;
+        text-align: center;
+        color: $limeGreen;
+    }
+
+    .services {
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        div {
+            width: 570px;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.5);
+            h3 {
+                text-transform: uppercase;
+                font-size: 25px;
+                color: $limeGreen;
+            }
+            p {
+                color: $white;
+            }
+        }
+    }
+    .other {
+        text-align: center;
+        margin: 20px;
+        p {
+            margin-bottom: 20px;
         }
     }
 }
